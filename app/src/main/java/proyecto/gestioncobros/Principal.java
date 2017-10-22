@@ -20,7 +20,7 @@ public class Principal extends AppCompatActivity {
         scrollCalendar.setOnDateClickListener(new OnDateClickListener() {
             @Override
             public void onCalendarDayClicked(int year, int month, int day) {
-                // user clicked on a specific date on the calendar
+                
             }
         });
         scrollCalendar.setDateWatcher(new DateWatcher() {

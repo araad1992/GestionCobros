@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="proyecto.gestioncobros.Principal">
+
+    <pl.rafman.scrollcalendar.ScrollCalendar
+        android:id="@+id/scrollCalendar"
+        android:layout_width="368dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:backgroundColor="@android:color/transparent"
+        app:currentDayBackground="@drawable/scrollcalendar_circle_outline"
+        app:currentDayTextColor="@android:color/darker_gray"
+        app:customFont="fonts/montserrat-light.otf"
+        app:disabledBackgroundColor="@android:color/transparent"
+        app:disabledTextColor="@android:color/darker_gray"
+        app:fontColor="@android:color/black"
+        app:fontSize="18dp"
+        app:selectedBackground="@drawable/scrollcalendar_circle_full"
+        app:selectedBackgroundBeginning="@drawable/scrollcalendar_range_start"
+        app:selectedBackgroundEnd="@drawable/scrollcalendar_range_end"
+        app:selectedBackgroundMiddle="@drawable/scrollcalendar_range_middle"
+        app:selectedTextColor="@android:color/white"
+        app:unavailableBackground="@drawable/scrollcalendar_strikethrough"
+        app:unavailableTextColor="@android:color/darker_gray"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="8dp" />
+
+</android.widget.RelativeLayout>
